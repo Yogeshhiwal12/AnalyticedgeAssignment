@@ -1,0 +1,59 @@
+.posts-container {
+    background: linear-gradient(to bottom right, #d608cc, #ad09df);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  
+  .heading {
+    font-family:fantasy;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    font-size: 3rem;
+  }
+  
+  .pagination {
+    margin-top: 2rem;
+  }
+  
+  .button-previous {
+    background: linear-gradient(to bottom right, #43b915, #cc99ff);
+    color: #fff;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+
+  }
+  
+  .button-number {
+    background: linear-gradient(to bottom right, #e75704, #99ffcc);
+    color: #fff;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin: 1px;
+    width: 30px;
+  }
+  
+  .button-next {
+    background: linear-gradient(to bottom right, #c0083f, #ffcc99);
+    color: #fff;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+  }
+
+  
+  @media (max-width: 768px) {
+    .posts-container {
+      padding: 1rem;
+    }
+  }
+  

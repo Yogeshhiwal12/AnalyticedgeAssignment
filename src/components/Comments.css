@@ -1,0 +1,63 @@
+.comments-container {
+  background: linear-gradient(to bottom right, #e014c5, #840cca);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.heading {
+  font-family: 'Arial', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+
+}
+
+.pagination {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.button-previous,
+.button-number,
+.button-next {
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-previous {
+  background: linear-gradient(to bottom right, #eb0464, #cc99ff);
+}
+
+.button-number {
+  background: linear-gradient(to bottom right, #66ccff, #99ffcc);
+  width: 60px;
+}
+
+.button-next {
+  background: linear-gradient(to bottom right, #da4f0e, #ffcc99);
+}
+
+.button-previous:hover,
+.button-number:hover,
+.button-next:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .comments-container {
+    padding: 1rem;
+  }
+}
